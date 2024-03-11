@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Survey Form</title>
+  <link rel='stylesheet' href='styles.css'/>
+</head>
+<body>
+  <main>
+  <h1 id='title'>Survey Form</h1>
+  <p class='thank' id='description'>Thank you for taking the time to share your feedback</p>
+  
+  <div class='form'>
+  <form id='survey-form'>    
+      <label id='name-label'>Name<input id='name' type='text' required placeholder='Enter your name'/></label>
+
+      <label id='email-label'>E-mail<input id='email' type='email' required  placeholder='Enter your e-mail'/></label>
+      
+      <label id='number-label'>Age<input id='number' type='number' required min='15' max='110' placeholder='Enter your age'/></label>
+
+<label id='hear-label'>How did you hear about us?
+<select id='dropdown'>
+  <option>(Select One)</option>
+  <option>Online</option>
+  <option>Friends Recommendation</option>
+  <option>Referral sources</option>
+</select>
+</label>
+
+
+  <legend id='type'>What type of account is this?</legend>
+<label id='personal-label'><input class='inline' name='account' value='personal' type='radio' required checked />Personal</label>
+<label id='business-label'><input class='inline' name='account' value='business' type='radio' required />Business</label>
+
+  <legend id='improve'>What would to like to see improved?</legend>
+  <div class='improve'>
+<label id='UI-label'><input class='inline' id='UI' type='checkbox' required value='UI'/>UI</label>
+<label id='UX-label'><input class='inline' value='UX' type='checkbox' required  value='UX'/>UX</label>
+<label value='clear-label'><input class='inline' value='community' type='checkbox' value='community' />Community form</label>
+</div>
+
+<label class='comments'>Additional comments
+<textarea class='area' rows='3' columns='20' placeholder='Share any other feedback'>
+</textarea>
+</label>
+<input id='submit' type='submit' value='submit'>
+</main>
+</div>
+</body>

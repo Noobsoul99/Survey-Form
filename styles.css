@@ -1,0 +1,129 @@
+body {
+    width: 100%;
+    color: #ffffff;
+    font-family: tahoma;
+    font-weight: thin;
+    font-size: 14px; 
+    background: url(https://images.unsplash.com/photo-1527525443983-6e60c75fff46?q=80&w=3085&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) 
+    }
+    
+    #title {
+      font-family: Impact;
+      color: #ffffff;
+      font-size: 40px;
+    }
+    
+    .thank {
+      font-style: italic;
+      color: #ffffff;
+      font-size: 16;
+    }
+    
+    p {
+      font-family: sans;
+    }
+    
+    h1,p {
+      margin: 1em auto;
+      text-align: center;
+    }
+    
+    form {
+      width: auto;
+      padding: 1em;
+      max-width: 500px;
+      min-width: 300px;
+      margin: auto;
+    }
+    
+    label {
+      display: block;
+      margin: 0.5em 0;
+    }
+    
+    input, textarea, select {
+      margin: 5px 10px 0 0;
+      width: 100%;
+      min-height: 2em;
+    }
+    
+    .inline {
+      width: unset;
+      margin: 0 0.5em 0 0;
+      vertical-align: middle;
+    }
+    
+    
+    .form {
+      width: 80%;
+      background-color: #038C3E;
+      margin-left: auto;
+      margin-right: auto;
+    
+      padding: 20px;
+      max-width: 500px;
+    }
+    
+    legend {
+      margin-top: 40px;
+    }
+    
+    .comments {
+      margin-top: 30px;
+      font-size: 14;
+      font-family: gotham;
+      font-weight: bold;
+    }
+    
+    #name-label {
+      font-size: 14;
+      font-family: gotham;
+      font-weight: bold;
+    }
+    
+    #email-label {
+      font-size: 14;
+      font-family: gotham;
+      font-weight: bold;
+      margin-top: 25px;
+    }
+    
+    #number-label {
+      font-size: 14;
+      font-family: gotham;
+      font-weight: bold;
+      margin-top: 25px;
+    }
+    
+    #hear-label {
+      font-size: 14;
+      font-family: gotham;
+      font-weight: bold;
+      margin-top: 25px;
+    }
+    
+    #type {
+      font-size: 14;
+      font-family: gotham;
+      font-weight: bold;
+    }
+    
+    #improve {
+      font-size: 14;
+      font-family: gotham;
+      font-weight: bold;
+    }
+    
+    .area {
+      margin-top: 10px;
+    }
+    
+    input[type="submit"] {
+      display: block;
+      width: 100%;
+      margin: 1em auto;
+      height: 1em;
+      font-size: 1.1rem;
+      background-color: #CBD966;
+      border: none;
+    }
